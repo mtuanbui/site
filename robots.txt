@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tomasbuidev.github.io/sitemap.xml
+Sitemap: https://tomasbuidev.github.io/my-blog/sitemap.xml
