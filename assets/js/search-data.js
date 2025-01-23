@@ -30,7 +30,28 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/my-blog/projects/";
           },
-        },{id: "post-flow-matching-generative-model",
+        },{id: "dropdown-publications",
+              title: "publications",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-projects",
+              title: "projects",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/my-blog/blog/";
+              },
+            },{id: "post-flow-matching-generative-model",
       
         title: "Flow matching generative model",
       
@@ -96,7 +117,22 @@ ninja.data = [{
           window.location.href = "/my-blog/blog/2024/sds/";
         
       },
-    },{
+    },{id: "projects-real-time-rigid-deformation-for-web-browsers",
+          title: 'real-time rigid deformation for web browsers',
+          description: "an implementation of Image Deformation Using Moving Least Squares for web browser",
+          section: "Projects",handler: () => {
+              window.location.href = "/my-blog/projects/fun_imagewarp/";
+            },},{id: "projects-fast-portrait-matting-for-web-browsers",
+          title: 'fast portrait matting for web browsers',
+          description: "MODNet inference in a web browser",
+          section: "Projects",handler: () => {
+              window.location.href = "/my-blog/projects/fun_portrait_mat/";
+            },},{id: "projects-detect-and-refine-margin-lines-on-a-3d-tooth-model",
+          title: 'detect and refine margin lines on a 3D tooth model',
+          description: "a geometry processing project that I researched and developed while being a research student in Computer Graphics",
+          section: "Projects",handler: () => {
+              window.location.href = "/my-blog/projects/work_dental/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
