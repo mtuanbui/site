@@ -48,10 +48,12 @@ $$
 
 such that if the initial $X_0 \sim \pi_0$ then $X_1 \sim \pi_1$. The velocity field $\mathcal{v}$ is learned by minimizing a simple mean square objective:
 
+$$
 \begin{equation}
 \label{eq:loss}
-\min*\mathcal{v}\mathbb{E}*{(X_0,X_1) \sim \gamma} \left[ \int_0^1 ||\frac{\mathrm{d}}{\mathrm{d}t}X_t - \mathcal{v}(X_t,t)||^2 \mathrm{d}t \right]
+\min_\mathcal{v}\mathbb{E}_{(X_0,X_1) \sim \gamma} \left[ \int_0^1 ||\frac{\mathrm{d}}{\mathrm{d}t}X_t - \mathcal{v}(X_t,t)||^2 \mathrm{d}t \right]
 \end{equation}
+$$
 
 where $X_t = \phi (X_0, X_1, t)$ is an interpolation function between $X_0$ and $X_1$ that is differentiable w.r.t timestep $t$. Commonly $\phi$ has the form
 

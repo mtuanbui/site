@@ -27,7 +27,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-I am an artificial intelligence researcher with a primary focus on researching and developing deep learning models in the field of computer vision. My research spans various topics, including large-scale models such as text-to-image diffusion models and lightweight solutions like real-time light estimation models. A curated selection of the projects I have undertaken can be found on the [Projects subpage](/my-blog/projects).
+I am an artificial intelligence researcher with a primary focus on researching and developing deep learning models in the field of computer vision. My work spans large-scale models, such as text-to-image diffusion models, and lightweight solutions like real-time light estimation models. A curated selection of the projects I have undertaken can be found on the [Projects subpage](/my-blog/projects).
 
 Before dedicating myself fully to deep learning, I pursued research in computer graphics and image processing, earning a PhD in the field. Some of my work has been published in the reputable journal Computers & Graphics, accessible at the [Publications subpage](/my-blog/publications/).
 
