@@ -5,3 +5,55 @@
   year={2015},
   url={https://arxiv.org/pdf/1502.04623.pdf}
 }
+
+@inproceedings{karras2022,
+  author={Tero Karras and Miika Aittala and Timo Aila and Samuli Laine},
+  title={Elucidating the Design Space of Diffusion-Based Generative Models},
+  booktitle={Proc. NeurIPS},
+  year={2022}
+}
+
+
+@article{song2019, 
+  year = {2019}, 
+  title = {Generative Modeling by Estimating Gradients of the Data Distribution}, 
+  author = {Song, Yang and Ermon, Stefano}, 
+  journal = {arXiv}, 
+  doi = {10.48550/arxiv.1907.05600}, 
+  eprint = {1907.05600}, 
+  abstract = {{We introduce a new generative model where samples are produced via Langevin dynamics using gradients of the data distribution estimated with score matching. Because gradients can be ill-defined and hard to estimate when the data resides on low-dimensional manifolds, we perturb the data with different levels of Gaussian noise, and jointly estimate the corresponding scores, i.e., the vector fields of gradients of the perturbed data distribution for all noise levels. For sampling, we propose an annealed Langevin dynamics where we use gradients corresponding to gradually decreasing noise levels as the sampling process gets closer to the data manifold. Our framework allows flexible model architectures, requires no sampling during training or the use of adversarial methods, and provides a learning objective that can be used for principled model comparisons. Our models produce samples comparable to GANs on MNIST, CelebA and CIFAR-10 datasets, achieving a new state-of-the-art inception score of 8.87 on CIFAR-10. Additionally, we demonstrate that our models learn effective representations via image inpainting experiments.}}, 
+  keywords = {}, 
+}
+
+@article{ho2020, 
+  year = {2020}, 
+  title = {Denoising Diffusion Probabilistic Models}, 
+  author = {Ho, Jonathan and Jain, Ajay and Abbeel, Pieter}, 
+  journal = {arXiv}, 
+  doi = {10.48550/arxiv.2006.11239}, 
+  eprint = {2006.11239}, 
+  abstract = {{We present high quality image synthesis results using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics. Our best results are obtained by training on a weighted variational bound designed according to a novel connection between diffusion probabilistic models and denoising score matching with Langevin dynamics, and our models naturally admit a progressive lossy decompression scheme that can be interpreted as a generalization of autoregressive decoding. On the unconditional CIFAR10 dataset, we obtain an Inception score of 9.46 and a state-of-the-art FID score of 3.17. On 256x256 LSUN, we obtain sample quality similar to ProgressiveGAN. Our implementation is available at https://github.com/hojonathanho/diffusion}}, 
+  keywords = {}, 
+}
+
+
+@article{song2020, 
+  year = {2020}, 
+  title = {Score-Based Generative Modeling through Stochastic Differential Equations}, 
+  author = {Song, Yang and Sohl-Dickstein, Jascha and Kingma, Diederik P and Kumar, Abhishek and Ermon, Stefano and Poole, Ben}, 
+  journal = {arXiv}, 
+  doi = {10.48550/arxiv.2011.13456}, 
+  eprint = {2011.13456}, 
+  abstract = {{Creating noise from data is easy; creating data from noise is generative modeling. We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise. Crucially, the reverse-time SDE depends only on the time-dependent gradient field (\textbackslashaka, score) of the perturbed data distribution. By leveraging advances in score-based generative modeling, we can accurately estimate these scores with neural networks, and use numerical SDE solvers to generate samples. We show that this framework encapsulates previous approaches in score-based generative modeling and diffusion probabilistic modeling, allowing for new sampling procedures and new modeling capabilities. In particular, we introduce a predictor-corrector framework to correct errors in the evolution of the discretized reverse-time SDE. We also derive an equivalent neural ODE that samples from the same distribution as the SDE, but additionally enables exact likelihood computation, and improved sampling efficiency. In addition, we provide a new way to solve inverse problems with score-based models, as demonstrated with experiments on class-conditional generation, image inpainting, and colorization. Combined with multiple architectural improvements, we achieve record-breaking performance for unconditional image generation on CIFAR-10 with an Inception score of 9.89 and FID of 2.20, a competitive likelihood of 2.99 bits/dim, and demonstrate high fidelity generation of 1024 x 1024 images for the first time from a score-based generative model.}}, 
+  keywords = {}, 
+}
+
+@misc{lipman2023,
+  title={Flow Matching for Generative Modeling}, 
+  author={Yaron Lipman and Ricky T. Q. Chen and Heli Ben-Hamu and Maximilian Nickel and Matt Le},
+  year={2023},
+  eprint={2210.02747},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2210.02747}, 
+}
