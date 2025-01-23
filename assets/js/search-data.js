@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/my-blog/projects/";
           },
-        },{id: "post-elucidating-the-design-space-of-diffusion-based-generative-models-a-k-a-edm-model",
+        },{id: "post-flow-matching-generative-model",
+      
+        title: "Flow matching generative model",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/my-blog/blog/2025/cfm/";
+        
+      },
+    },{id: "post-elucidating-the-design-space-of-diffusion-based-generative-models-a-k-a-edm-model",
       
         title: "Elucidating the design space of diffusion-based generative models (a.k.a EDM model)",
       
@@ -39,6 +50,50 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/my-blog/blog/2024/edm/";
+        
+      },
+    },{id: "post-how-swiftbrush-leverages-vsd-to-train-a-one-step-text-to-image-generative-model",
+      
+        title: "How SwiftBrush leverages VSD to train a one-step text-to-image generative model",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/my-blog/blog/2024/swiftbrush/";
+        
+      },
+    },{id: "post-instaflow-one-step-is-enough-for-high-quality-diffusion-based-text-to-image-generation",
+      
+        title: "InstaFlow: one step is enough for high-quality diffusion-based text-to-image generation",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/my-blog/blog/2024/instaflow/";
+        
+      },
+    },{id: "post-prompt-based-image-editing-via-delta-denoising-score",
+      
+        title: "Prompt-based image editing via Delta Denoising Score",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/my-blog/blog/2024/dds/";
+        
+      },
+    },{id: "post-explore-the-score-distillation-sampling-technique",
+      
+        title: "Explore the Score Distillation Sampling technique",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/my-blog/blog/2024/sds/";
         
       },
     },{
