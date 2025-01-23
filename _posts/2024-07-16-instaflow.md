@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: "InstaFlow: one step is enough for high-quality diffusion-based text-to-image generation"
-description: 
+description:
 tags: iclr2024 diffusion-model one-step-generation
 categories: review
 giscus_comments: false
@@ -20,11 +20,10 @@ tikzjax: true
 typograms: true
 
 bibliography: 2018-12-22-distill.bib
-
 ---
 
 [InstaFlow](https://arxiv.org/abs/2309.06380) introduces a method to transform a many-step diffusion model into a high-quality one-step generative model. The core concept involves applying a reflow process to straighten the flow trajectories before distillation training.
-   
+
 ---
 
 Background in Flow Matching, Rectified Flow and Reflow is helpful to fathom the idea behind InstaFlow.
@@ -51,7 +50,7 @@ such that if the initial $X_0 \sim \pi_0$ then $X_1 \sim \pi_1$. The velocity fi
 
 \begin{equation}
 \label{eq:loss}
-\min_\mathcal{v}\mathbb{E}_{(X_0,X_1) \sim \gamma} \left[ \int_0^1 ||\frac{\mathrm{d}}{\mathrm{d}t}X_t - \mathcal{v}(X_t,t)||^2 \mathrm{d}t \right]
+\min*\mathcal{v}\mathbb{E}*{(X_0,X_1) \sim \gamma} \left[ \int_0^1 ||\frac{\mathrm{d}}{\mathrm{d}t}X_t - \mathcal{v}(X_t,t)||^2 \mathrm{d}t \right]
 \end{equation}
 
 where $X_t = \phi (X_0, X_1, t)$ is an interpolation function between $X_0$ and $X_1$ that is differentiable w.r.t timestep $t$. Commonly $\phi$ has the form
@@ -153,6 +152,7 @@ Moreover, the author emphasizes that this step 2 will not be effective without s
 ## Limitations
 
 InstaFlow has few limitations:
+
 - High cost of synthesizing and storing the dataset
 - Reliance on a synthetic training dataset
 - Inferior image quality compared to the original model

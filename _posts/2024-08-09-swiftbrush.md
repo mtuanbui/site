@@ -25,9 +25,10 @@ bibliography: 2018-12-22-distill.bib
 This post summarizes how [SwiftBrush](https://arxiv.org/pdf/2312.05239) leverages [Variational Score Distillation](https://github.com/thu-ml/prolificdreamer) (VSD) to distill a pretrained diffusion model into a single-step generative model
 
 IMO SwiftBrush's main contributions are:
+
 - Single-step text-to-image model that generate images of comparable quality to Stable Diffusion models
 - Don't need training data
-   
+
 ---
 
 ## Methodology
@@ -45,7 +46,7 @@ $$
 \nabla_\phi \mathcal{L}_{SDS} = \mathbb{E}_{t,\epsilon,c} \left[ w(t)(\epsilon_\psi (x_t,t,y) - \epsilon) \frac{\partial g(\theta,c)}{\partial \theta}  \right]
 $$
 
-where 
+where
 
 $\epsilon \sim \mathcal{N}(0,I)$, $x_t=\alpha_t g(\theta,c) + \sigma_t \epsilon$
 

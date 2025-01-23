@@ -22,4 +22,3 @@ The web user interface allows users to select an input image from a list or uplo
 <div class="caption">
     <a href="https://mtuan4i.github.io/ImageWarping">mtuan4i.github.io/ImageWarping</a>
 </div>
-

@@ -8,8 +8,9 @@ category: work
 related_publications: false
 ---
 
-The image below illustrates the margin line in dental restorations. 
-> A margin line is the boundary between the natural tooth structure and the artificial restorative material. 
+The image below illustrates the margin line in dental restorations.
+
+> A margin line is the boundary between the natural tooth structure and the artificial restorative material.
 > It is the visible edge where the filling, crown, or other restoration meets the original tooth.
 
 <div class="row">
@@ -28,7 +29,6 @@ During my time as a research student, I undertook a research project to develop 
 <div class="caption">
     Single-point margin line detection
 </div>
-
 
 <div class="row">
     <div class="mx-auto col-sm-8 mt-3 mt-md-0">

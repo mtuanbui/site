@@ -20,4 +20,3 @@ I also developed a basic web application for the project. The user interface all
 <div class="caption">
     <a href="https://mtuan4i.github.io/BackgroundRemover/">mtuan4i.github.io/BackgroundRemover</a>
 </div>
-
