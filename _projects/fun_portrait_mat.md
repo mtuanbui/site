@@ -1,6 +1,6 @@
 ---
 layout: page
-title: fast portrait matting for web browsers
+title: Fast portrait matting for web browsers
 description: MODNet inference in a web browser
 # img: assets/img/projects/bgremover_bg.png
 importance: 1

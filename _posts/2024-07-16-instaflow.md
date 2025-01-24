@@ -24,11 +24,9 @@ bibliography: 2018-12-22-distill.bib
 
 [InstaFlow](https://arxiv.org/abs/2309.06380) introduces a method to transform a many-step diffusion model into a high-quality one-step generative model. The core concept involves applying a reflow process to straighten the flow trajectories before distillation training.
 
----
+## Background
 
 Background in Flow Matching, Rectified Flow and Reflow is helpful to fathom the idea behind InstaFlow.
-
-## Background
 
 ### Flow Matching
 

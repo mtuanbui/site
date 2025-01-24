@@ -29,8 +29,6 @@ IMO SwiftBrush's main contributions are:
 - Single-step text-to-image model that generate images of comparable quality to Stable Diffusion models
 - Don't need training data
 
----
-
 ## Methodology
 
 ### Key idea

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: detect and refine margin lines on a 3D tooth model
+title: Detect and refine margin lines on a 3D tooth model
 description: a geometry processing project that I researched and developed while being a research student in Computer Graphics
 img: assets/img/projects/dental_bg.png
 importance: 5

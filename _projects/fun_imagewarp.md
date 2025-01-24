@@ -1,6 +1,6 @@
 ---
 layout: page
-title: real-time rigid deformation for web browsers
+title: Real-time rigid deformation for web browsers
 description: an implementation of Image Deformation Using Moving Least Squares for web browser
 # img: assets/img/projects/imgwarp_bg.png
 importance: 2
