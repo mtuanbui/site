@@ -47,10 +47,8 @@ $$
 such that if the initial $X_0 \sim \pi_0$ then $X_1 \sim \pi_1$. The velocity field $\mathcal{v}$ is learned by minimizing a simple mean square objective:
 
 $$
-\begin{equation}
-\label{eq:loss}
 \min_\mathcal{v}\mathbb{E}_{(X_0,X_1) \sim \gamma} \left[ \int_0^1 ||\frac{\mathrm{d}}{\mathrm{d}t}X_t - \mathcal{v}(X_t,t)||^2 \mathrm{d}t \right]
-\end{equation}
+\tag{1}
 $$
 
 where $X_t = \phi (X_0, X_1, t)$ is an interpolation function between $X_0$ and $X_1$ that is differentiable w.r.t timestep $t$. Commonly $\phi$ has the form
@@ -79,7 +77,7 @@ As a result, the trajectory from $X_0$ to $X_1$ is contrainsted to a straight li
 
 ### Reflow
 
-Training a rectified flow using equation \eqref{eq:loss} alone would not lead to a satisfactorily straight flow model. Study in [https://arxiv.org/abs/2209.03003](https://arxiv.org/abs/2209.03003) suggests that we can enhance the straightness by recursively applying the rectifying procedure, as shown in the image below.
+Training a rectified flow using Equation 1 alone would not lead to a satisfactorily straight flow model. Study in [https://arxiv.org/abs/2209.03003](https://arxiv.org/abs/2209.03003) suggests that we can enhance the straightness by recursively applying the rectifying procedure, as shown in the image below.
 
 <div class="row">
   <div class="mx-auto col-sm mt-3 mt-md-0">
