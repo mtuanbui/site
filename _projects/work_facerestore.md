@@ -7,8 +7,8 @@ importance: 3
 category: work
 related_publications: false
 images:
-    compare: true
-    slider: true
+  compare: true
+  slider: true
 ---
 
 In collaboration with a colleague, I undertook the development of a face restoration model inspired by [CodeFormer](https://github.com/sczhou/CodeFormer/tree/master). While CodeFormer is a widely recognized and hightly effective model, its commercial application is subject to restrictions. To address this limitation, we embarked on the creation of our own face restoration model. Although our approach shares similarities with CodeFormer's overall methodology, we implemented strategic modifications to the neural network architecture. These modifications have resulted in enhanced identity alignment of the restored faces without sacrificing image quality.
@@ -37,6 +37,3 @@ The following images demonstrate the effectiveness of our model in restoring cor
         </img-comparison-slider>
     </div>
 </div>
-
-
-
