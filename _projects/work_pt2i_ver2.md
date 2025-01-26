@@ -4,7 +4,7 @@ title: Improving the personalized text-to-image diffusion model
 description: rebuild the personalized text-to-image diffusion model using more powerful architectures and upgraded dataset
 img: assets/img/projects/pt2i_ver2_bg.png
 importance: 0
-category: work
+category: hidden
 related_publications: false
 images:
   compare: true
