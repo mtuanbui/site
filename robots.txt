@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://mtuanbui.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://mtuanbui.github.iosite/sitemap.xml
