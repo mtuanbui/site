@@ -4,7 +4,7 @@ title: Face restoration model
 description: deep neural network for fast restoration of corrupted facial images
 img: assets/img/projects/facerestore_bg.png
 importance: 3
-category: hidden
+category: work
 related_publications: false
 images:
   compare: true

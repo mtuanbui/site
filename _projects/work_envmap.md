@@ -4,7 +4,7 @@ title: Real-time HDR lighting environment map estimation
 description: lightweight deep neural network for real-time estimating a HDR lighting environment map from a single LDR input image
 img: assets/img/projects/envmap_bg.png
 importance: 2
-category: hidden
+category: work
 related_publications: false
 ---
 

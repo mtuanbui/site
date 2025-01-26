@@ -4,7 +4,7 @@ title: Test-time training-free personalized text-to-image diffusion model
 description: a personalized diffusion model that does not require training/finetuning during test-time
 img: assets/img/projects/pt2i_bg.png
 importance: 1
-category: hidden
+category: work
 related_publications: false
 images:
   compare: true
