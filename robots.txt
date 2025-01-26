@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://tomasbuidev.github.io/my-blog/sitemap.xml
+User-agent: * Disallow: Sitemap: https://mtuanbui.github.io/sitemap.xml
