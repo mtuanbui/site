@@ -36,7 +36,7 @@ $$
 \mathrm{d}x = \left[ f(x,t) - \frac{1}{2} g(t)^2 \nabla_x \log p_t(x)  \right] \mathrm{d}t
 $$
 
-In a nutshell Flow matching directly learn that ODE, i.e. it leans what inside the bracket
+In a nutshell Flow matching directly learn that ODE, i.e. it learns what inside the bracket
 
 Given $\pi_0$ as a standard Gaussian distribution and $\pi_1$ as the image data distribution. Flow matching learns to transfer $\pi_0$ to $\pi_1$ via an ODE:
 
