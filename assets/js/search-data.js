@@ -51,7 +51,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/site/blog/";
               },
-            },{id: "post-flow-matching-generative-model",
+            },{id: "post-a-pytorch-lightning-implementation-of-mnist-flow-matching-generative-model",
+      
+        title: "A Pytorch Lightning implementation of MNIST flow matching generative model",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/site/blog/2025/cfm-mnist/";
+        
+      },
+    },{id: "post-flow-matching-generative-model",
       
         title: "Flow matching generative model",
       
